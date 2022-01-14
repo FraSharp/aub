@@ -6,7 +6,7 @@
 ```
 git clone https://github.com/FraSharp/aub.git ~/.oh-my-zsh/custom/themes/aub --depth=1
 ```
-open .zshrc with `nano ~/.zshrc` and replace: `ZSH_THEME=""` to `ZSH_THEME="aub/aub"`
+open .zshrc with `nano ~/.zshrc` and replace: `ZSH_THEME=""` with `ZSH_THEME="aub/aub"`
 
 ```
 omz reload
