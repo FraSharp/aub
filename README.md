@@ -13,4 +13,4 @@ omz reload
 ```
 
 ### Notes
-The font i use is ![JetBrainsMono](https://github.com/JetBrains/JetBrainsMono).
+The font i use is [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono).
