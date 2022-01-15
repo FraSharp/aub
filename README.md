@@ -1,6 +1,10 @@
 # Aub ZSH Theme
 
+Arch Linux (Konsole) with Oh-My-Zsh
 ![SS of my shell](https://i.imgur.com/yeCp5rk.png)
+
+macOS with Oh-My-Zsh
+![SS of my shell but macOS](https://i.imgur.com/G11BRkJ.png)
 
 ## Installation
 ```
