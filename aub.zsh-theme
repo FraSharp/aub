@@ -59,11 +59,36 @@ bold_red=%{$fg_bold[red]%}
 
 # $fg_bold 			-> Bold font
 # $fg				-> Regular font
+
+# Variable to use custom username
+custom_username=false
+# Variable to use custom hostname
+custom_hostname=false
+
+
+# Set custom username only if the variable is true
+if [ $custom_username = true ]; then
+# Set custom username here
+username=""
+else
+# Else it will fallback to real username
+username=%n
+fi
+
+# Set custom hostname only if the variable is false
+if [ $custom_hostname ]; then
+# Set custom hostname here
+hostname=""
+else
+# Else fallback to real hostname
+hostname=%m
+fi
+
 PROMPT="\
 %{$bold_cyan%}ə \
-%{$bold_magenta%}%n \
+%{$bold_magenta%}$username \
 %{$bold_white%}at \
-%{$yellow%}%m \
+%{$yellow%}$hostname \
 %{$bold_white%}in \
 %{$bold_green%}%~ \
 %{$bold_blue%}\
