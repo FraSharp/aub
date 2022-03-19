@@ -76,7 +76,7 @@ username=%n
 fi
 
 # Set custom hostname only if the variable is false
-if [ $custom_hostname ]; then
+if [ $custom_hostname = true ]; then
 # Set custom hostname here
 hostname=""
 else
